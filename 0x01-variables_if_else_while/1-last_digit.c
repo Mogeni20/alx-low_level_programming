@@ -8,10 +8,10 @@
 int main(void)
 {
 	int n;
+	char output[] = "Last digit of n is ";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char output[] = "Last digit of n is ";
 
 	printf("%d\n ", n);
 	if (n > 5)
