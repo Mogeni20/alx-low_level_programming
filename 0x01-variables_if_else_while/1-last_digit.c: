@@ -1,4 +1,0 @@
-st_digit.c:14:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
-   14 |  char output[] = "Last digit of n is ";
-      |  ^~~~
-cc1: all warnings being treated as errors
